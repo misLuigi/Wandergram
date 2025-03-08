@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.6rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+  max-height: 375px;
+  object-fit: cover;
+}
+
+
+.user-profile-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.user-details {
+  margin-left: 10px;
+}
+
+.user-details h2 {
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.user-details p {
+  margin: 0;
+  font: 0.5rem;
+}
