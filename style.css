@@ -15,12 +15,16 @@ body {
 }
 
 header {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid #c4c4c4;
   padding: 0 15px;
   margin-bottom: 15px;
+  background-color: white;
+  z-index: 1;
 }
 
 h1 {
